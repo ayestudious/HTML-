@@ -7,23 +7,35 @@
 <body>
 
   <div style="border:2px solid #000; padding:12px; max-width:1100px; margin:20px auto;">
+    
+    <!-- Header Section -->
     <h1>Welcome to Laundry Wallah / Laundry Mart</h1>
+
+    <!-- About Section -->
     <p>
       Welcome to Laundry Wallah / Laundry Mart, your one-stop solution for all your laundry needs.
       Our dedicated team ensures top-notch service, providing a hassle-free and efficient laundry experience.
-      With a focus on quality and customer satisfaction, we take care of your garments as if they were our own.
+      With a strong focus on quality and customer satisfaction, we handle your garments with utmost care.
+      From everyday clothing to delicate fabrics, we treat every item as our own.
     </p>
 
-    <!-- Main content: left image, right sections -->
+    <!-- Main Content Layout -->
     <table width="100%" cellspacing="0" cellpadding="8">
       <tr valign="top">
-        <!-- Left: Illustration using provided image -->
-        <td width="260" style="vertical-align: top;">
-          <img src="https://img.freepik.com/free-vector/realistic-washing-machine-composition-with-isolated-view-laundry-flying-out-machine-door-basin-vector-illustration_1284-83894.jpg?t=st=1766767223~exp=1766770823~hmac=06d0a9afcfb12af54c28c4672ece155fcd0163b5815ef1f03a37c8a767e4763c" width="230" />
+
+        <!-- Image Section -->
+        <td width="260">
+          <img 
+            src="https://img.freepik.com/free-vector/realistic-washing-machine-composition-with-isolated-view-laundry-flying-out-machine-door-basin-vector-illustration_1284-83894.jpg"
+            width="230"
+            alt="Laundry Image"
+          />
         </td>
 
-        <!-- Right: Services, Price List, Booking -->
-        <td width="*" style="vertical-align: top;">
+        <!-- Services, Price List, Book Now -->
+        <td>
+
+          <!-- Services Section -->
           <h2>Our Services</h2>
           <ul>
             <li>Washing and Drying</li>
@@ -32,52 +44,76 @@
             <li>Stain Removal</li>
             <li>Express Services</li>
             <li>Special Garment Care</li>
-            <li>And more…</li>
+            <li>And more...</li>
           </ul>
 
+          <!-- Price List Section -->
           <h2>Price List</h2>
           <table border="1" cellpadding="6" cellspacing="0" width="100%">
-            <thead>
-              <tr>
-                <th align="left">Service</th>
-                <th align="left">Price</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Washing and Drying</td>
-                <td>$10.00</td>
-              </tr>
-              <tr>
-                <td>Ironing and Folding</td>
-                <td>$5.00</td>
-              </tr>
-            </tbody>
+            <tr>
+              <th align="left">Service</th>
+              <th align="left">Price</th>
+            </tr>
+            <tr>
+              <td>Washing and Drying</td>
+              <td>Rs 10.00</td>
+            </tr>
+            <tr>
+              <td>Ironing and Folding</td>
+              <td>Rs 5.00</td>
+            </tr>
           </table>
 
+          <!-- Book Now Section -->
           <h2>Book Now</h2>
           <form action="#" method="post">
             <div>
-              <label for="name">Name</label><br/>
-              <input type="text" id="name" name="name" placeholder="Your name" />
+              <label for="name">Name</label><br />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
             </div>
+
             <div>
-              <label for="email">Email</label><br/>
-              <input type="email" id="email" name="email" placeholder="you@example.com" />
+              <label for="email">Email</label><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="you@example.com"
+                required
+              />
             </div>
+
             <div>
-              <label for="phone">Phone</label><br/>
-              <input type="tel" id="phone" name="phone" placeholder="123-456-7890" />
+              <label for="phone">Phone</label><br />
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="123-456-7890"
+                required
+              />
             </div>
-            <div style="margin-top:6px;">
+
+            <div style="margin-top:8px;">
               <button type="submit">Submit</button>
             </div>
           </form>
+
         </td>
       </tr>
     </table>
 
-    <p style="font-size:12px; margin-top:10px;">Contact us at: info@laundrymart.com</p>
+    <!-- Footer Section -->
+    <p style="font-size:12px; margin-top:10px;">
+      Contact us at: info@laundrymart.com
+    </p>
+
   </div>
 
 </body>
